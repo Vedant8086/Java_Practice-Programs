@@ -1,0 +1,30 @@
+import java.util.*;
+import java.lang.*;
+public class Linear_Search {
+	Linear_Search() {
+		System.out.println("Linear Search Started...");
+	}
+	void Searching() {
+		Scanner s1 = new Scanner(System.in);
+		int size = s1.nextInt();
+		int arr[size];
+		for(int i = 0;i < size;i++) {
+			arr[i] = s1.nextInt();
+		}
+		int target = s1.nextInt();
+		for(int i = 0;i < size;i++) {
+			if(target == arr[i]) {
+				Syste.out.println(target + " is at position : "+(i+1));
+			}
+		}
+	}
+	~Linear_Search() {
+		System.out.println("Linear Search is Over...");
+	}
+}
+public class Linear_Search1() {
+	public static void main(String[] args) {
+		Linear_Search l1 = new Linear_Search();
+		Linear_Search.Searching();
+	}
+}
