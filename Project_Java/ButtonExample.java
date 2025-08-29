@@ -7,7 +7,7 @@ public class ButtonExample {
 
         Button b = new Button("Click ME");
         b.setBounds(100,200,100,50);
-        Label lb = new Label();
+        Labelled lb = new Labelled();
         lb.setBounds(50,50,150,20);
         String host = "www.youtube.com";
         f.add(b);
